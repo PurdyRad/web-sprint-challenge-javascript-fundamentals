@@ -26,14 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+ The .map method is used for manipulating/reshaping data and will return the element/index in a new array, while the .forEach method does esseentially the same thing. .forEach iterates over each specific line and does not create a new array.
 
 2. Explain the difference between a callback and a higher order function.
+HOF receive functions into them while callback functions are passed through the HOF.
 
 3. What is closure?
+Closures are the combination of a function and the lexical enviornment within which that function was declared.
 
 4. Describe the four rules of the 'this' keyword.
+Window Binding- If there are no other applicable rules 'this' defaults to the window.
+Implicit Binding- Whenever a function is called by a preceding dot, the object to the left of the dot is 'this'.
+New Binding- If a constructor function is used 'this' refers to the specific instance of the object that is created/returned by said        constructor function
+Explicit Binding- Whenever JavaScript's .call/.apply/.bind method is used 'this' is explicity defined.
 
 5. Why do we need super() in an extended class?
+Super and extend work together to take care of the .call and .create in prototype scenarios. Super() specifically deals with the .create method.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
